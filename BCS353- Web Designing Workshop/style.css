@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    border-bottom: 2px solid black;
+    
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.bookimg{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: 2px solid black;
+    }
+
+.book{   
+    width: 292px;
+}
+.bookdetail{
+    width: 437.5px;
+}
+.price{
+    width: 389px;
+}
+.booktable{
+    
+        border-collapse: collapse;
+        width: 100%;
+        height: 100%; 
+        padding: 0%; 
+        margin: 0%; 
+        
+    
+}
+#size{
+    
+    border-left: 2px solid black;
+    text-align: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FFCE58; 
+    color: black; 
+    border-color: darkblue;
+    border-radius: 30px 10px 10px 30px; /* Rounded corners (top-left and bottom-left) */
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.div{
+    
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    
+}
+#cartimg{
+    width: 30px; 
+    height: 30px;
+    border-radius: 100%;
+}

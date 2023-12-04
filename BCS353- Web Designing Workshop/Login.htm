@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body{
+            background-color: white;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 475px;
+            margin-left: 500px;
+            margin-top: 20px;
+            padding: 20px;        
+        }
+
+        .form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form input {           
+            
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .form button {            
+            
+            padding: 10px 15px;        
+            border-color: black;
+            cursor: pointer;
+            color: red;
+            box-shadow: 0px 1px 1px 1px black
+        }
+
+        .form button:not(:first-child) {
+            margin-left: 25px;
+        }
+        .in{
+            margin-left: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form class="form" action="/your-action-endpoint" method="post">
+            Login Page
+            <br><br>
+            <label for="UserName">User Name:
+            <input class="in" type="text" id="username" name="username" required>
+            </label>
+            <br>
+            <label for="password">Password:
+            <input style="margin-left: 30px;" class="in" type="password" id="password" name="password" required>
+            </label>
+            <br>
+            
+            <button class="button" type="submit">Submit</button>
+            <button class="button" type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
